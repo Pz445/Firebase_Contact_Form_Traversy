@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PZ Web Development - Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="outer-wrapper">
+      <div id="inner-wrapper">
+        <h1>PZ Web Development</h1>
+        <div id="inner-box">
+          <div id="company-info">
+            <h2>PZ Web Development</h2>
+            <p>123 Main Street</p>
+            <p>(555)555-5555</p>
+            <p>test@testpz.com</p>
+          </div>
+          <div id="contact-form">
+            <h2 id="form-heading">Email Us</h2>
+            <div class="alert">
+              Your message has been sent!
+            </div>
+            <form action="" id="form">
+              <div id="contact-left">
+                <p>
+                  <label>Name</label>
+                  <input type="text" name="name" id="name" required>
+                </p>
+                <p>
+                  <label>Company</label>
+                  <input type="text" name="company" id="company">
+                </p>
+              </div>
+              <div id="contact-right">
+                <p>
+                  <label>Email</label>
+                  <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                  <label>Phone Number</label>
+                  <input type="text" name="phone" id="phone">
+                </p>
+              </div>
+              <p id="message-p">Messages</p>
+              <div id="textarea-div">
+                <textarea name="name" rows="5" id="message"></textarea>
+              </div>
+              <button type="submit">Submit</button>
+            <form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

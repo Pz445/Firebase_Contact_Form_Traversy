@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #858F93;
+}
+
+label {
+  display: block;
+}
+
+#inner-wrapper h1 {
+  text-align: center;
+}
+
+#company-info {
+  text-align: center;
+}
+
+#company-info p {
+  margin: 4px;
+}
+
+#inner-box {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+#contact-form {
+  text-align: center;
+}
+
+#message-p {
+  margin: 0;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+textarea, button {
+  width: 100%;
+  max-width: 500px;
+}
+
+.alert {
+  padding: 10px;
+  background-color: #79c879;
+  color: white;
+  margin-bottom: 10px;
+  display: none;
+}
